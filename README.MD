@@ -38,7 +38,7 @@ Small Arduino Projects
 	Analogue input must be converted from 0 - 1023 to 0-179 (rotation angles)
 
 
-6)Photoresistor + Buzzer/Piezo
+6) Photoresistor + Buzzer/Piezo
 
 	Adjust buzzer output using voltage change caused by light levels detected by photoresistor.
 
