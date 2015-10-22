@@ -7,23 +7,20 @@ Small Arduino Projects
 	Series / Parallel
 	No Code
 
-2)
+2) Flashing LEDs when button is pressed
 
-	Flashing LEDs when button is pressed
 	Simple code to toggle HIGH / LOW outputs when button is detected
 
 
-3)
+3) Temperature Sensor + LEDs
 
-	Temperature Sensor + LEDs
 	LEDs light up as temperature increases above baseline
 	Convert sensor value into a voltage and the voltage into a temperature
 	Compare temperature reading to pre-set baseline and toggle LEDs accordingly
 
 
-4)
+4) x3 Photoresistors + RGB LED
 
-	x3 Photoresistors + RGB LED
 	Adjust RGB levels in LED based on photoresistor readings
 	Have one photoresistor for each colour, filter light w/ plastic filter
 	
@@ -34,16 +31,14 @@ Small Arduino Projects
 	E.g (0,0,255) RG would be off and B would be on 100% of the time	
 
 
-5)	Servo + Potentiometer
+5) Servo + Potentiometer
 
 	Use a potentiometer to adjust voltage ratio  and rotate servo accordingly
 
 	Analogue input must be converted from 0 - 1023 to 0-179 (rotation angles)
 
 
-6)	
-
-	Photoresistor + Buzzer/Piezo
+6)Photoresistor + Buzzer/Piezo
 
 	Adjust buzzer output using voltage change caused by light levels detected by photoresistor.
 
