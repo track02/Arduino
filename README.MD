@@ -2,16 +2,19 @@ Small Arduino Projects
 
 
 1) Basic Circuit 
+
 	LED + Switch
 	Series / Parallel
 	No Code
 
 2)
+
 	Flashing LEDs when button is pressed
 	Simple code to toggle HIGH / LOW outputs when button is detected
 
 
 3)
+
 	Temperature Sensor + LEDs
 	LEDs light up as temperature increases above baseline
 	Convert sensor value into a voltage and the voltage into a temperature
@@ -19,6 +22,7 @@ Small Arduino Projects
 
 
 4)
+
 	x3 Photoresistors + RGB LED
 	Adjust RGB levels in LED based on photoresistor readings
 	Have one photoresistor for each colour, filter light w/ plastic filter
@@ -37,9 +41,11 @@ Small Arduino Projects
 	Analogue input must be converted from 0 - 1023 to 0-179 (rotation angles)
 
 
-6)	Photoresistor + Buzzer/Piezo
+6)	
 
-	Adjust buzzer output using voltage change caused by light levels detected by         photoresistor.
+	Photoresistor + Buzzer/Piezo
+
+	Adjust buzzer output using voltage change caused by light levels detected by photoresistor.
 
 	Use the tone function to allow varying frequencies
 
