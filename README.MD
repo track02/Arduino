@@ -48,3 +48,11 @@ Small Arduino Projects
 	move hand over photoresistor to create light-range
 
 	Convert this analogue input to a frequency and pass to speaker
+
+7) Resistor Ladder + Buzzer/Piezo
+
+	Created a resistor ladder which results in differing voltages
+	returned when a switch is pressed and the circuit completes
+
+	Look for different voltages returned analogue in
+	Play a different tone for each voltage
