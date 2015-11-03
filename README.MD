@@ -56,3 +56,10 @@ Small Arduino Projects
 
 	Look for different voltages returned analogue in
 	Play a different tone for each voltage
+
+8) LED's + Tilt Switch
+
+	Created a Digital Hour glass
+	Using a set interval / timer toggle on LED's as time passes
+	Once all LED's are lit flash odd/even 
+	If tilt switch output differs from previous reset LED's + timer
