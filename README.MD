@@ -63,3 +63,14 @@ Small Arduino Projects
 	Using a set interval / timer toggle on LED's as time passes
 	Once all LED's are lit flash odd/even 
 	If tilt switch output differs from previous reset LED's + timer
+
+9) Transistor + Motor
+
+	A motor requires more current than can be provided by digital out pins.
+	Back-voltage generated from a motor can also be harmful to circuit.
+	Use a 9V battery for powering the motor, a transistor is used
+	to interface the motor to the microcontroller.
+	A diode is also used to prevent damage being caused by back-voltage.
+
+	A switch is used to toggle the transistor gate and connect the motor.
+	
