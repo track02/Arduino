@@ -73,4 +73,13 @@ Small Arduino Projects
 	A diode is also used to prevent damage being caused by back-voltage.
 
 	A switch is used to toggle the transistor gate and connect the motor.
+
+10) H-Bridge + Motor
+
+	Use a H-Bridge to reverse the polarity of the motor
+	Allows motor to change direction
 	
+	By swapping voltages on H-Bridge control pins the polarity of
+	the connected circuit can be reversed, adjusting motor direction
+
+	Motor state is controlled using an On/Off button and a Left/Right button	
