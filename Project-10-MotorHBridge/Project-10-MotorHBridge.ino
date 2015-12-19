@@ -27,6 +27,9 @@ int motorDirection = 1;
 
 void setup() {
 
+  Serial.begin(9600); //Open up serial connection
+                    //9600 baud - 9600 bits per second
+
   //Setup input/output pins
   pinMode(directionSwitchPin, INPUT);
   pinMode(onOffSwitchStatePin, INPUT);
@@ -50,6 +53,7 @@ void loop() {
 
   //Read in voltage difference from potentiometer and set as speed
   motorSpeed = analogRead(potPin)/4;
+  Serial.println(motorSpeed);
 
   //If difference between On/Off and input is read
   if(onOffSwitchState != previousOnOffState)

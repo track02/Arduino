@@ -83,3 +83,8 @@ Small Arduino Projects
 	the connected circuit can be reversed, adjusting motor direction
 
 	Motor state is controlled using an On/Off button and a Left/Right button	
+
+11) LCD + Tilt Switch
+
+	Wired up an LCD to display different messages
+	Each time a change is detected from the tilt switch a new message is displayed
