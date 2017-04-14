@@ -1,25 +1,25 @@
 Small Arduino Projects 
 
 
-1) Basic Circuit 
+## Basic Circuit 
 
 	LED + Switch
 	Series / Parallel
 	No Code
 
-2) Flashing LEDs when button is pressed
+## Flashing LEDs when button is pressed
 
 	Simple code to toggle HIGH / LOW outputs when button is detected
 
 
-3) Temperature Sensor & LEDs
+## Temperature Sensor & LEDs
 
 	LEDs light up as temperature increases above baseline
 	Convert sensor value into a voltage and the voltage into a temperature
 	Compare temperature reading to pre-set baseline and toggle LEDs accordingly
 
 
-4) x3 Photoresistors & RGB LED
+## x3 Photoresistors & RGB LED
 
 	Adjust RGB levels in LED based on photoresistor readings
 	Have one photoresistor for each colour, filter light w/ plastic filter
@@ -31,14 +31,14 @@ Small Arduino Projects
 	E.g (0,0,255) RG would be off and B would be on 100% of the time	
 
 
-5) Servo & Potentiometer
+## Servo & Potentiometer
 
 	Use a potentiometer to adjust voltage ratio  and rotate servo accordingly
 
 	Analogue input must be converted from 0 - 1023 to 0-179 (rotation angles)
 
 
-6) Photoresistor & Buzzer/Piezo
+## Photoresistor & Buzzer/Piezo
 
 	Adjust buzzer output using voltage change caused by light levels detected by photoresistor.
 
@@ -49,7 +49,7 @@ Small Arduino Projects
 
 	Convert this analogue input to a frequency and pass to speaker
 
-7) Resistor Ladder & Buzzer/Piezo
+## Resistor Ladder & Buzzer/Piezo
 
 	Created a resistor ladder which results in differing voltages
 	returned when a switch is pressed and the circuit completes
@@ -57,14 +57,14 @@ Small Arduino Projects
 	Look for different voltages returned analogue in
 	Play a different tone for each voltage
 
-8) LED's & Tilt Switch
+## LED's & Tilt Switch
 
 	Created a Digital Hour glass
 	Using a set interval / timer toggle on LED's as time passes
 	Once all LED's are lit flash odd/even 
 	If tilt switch output differs from previous reset LED's + timer
 
-9) Transistor & Motor
+## Transistor & Motor
 
 	A motor requires more current than can be provided by digital out pins.
 	Back-voltage generated from a motor can also be harmful to circuit.
@@ -74,7 +74,7 @@ Small Arduino Projects
 
 	A switch is used to toggle the transistor gate and connect the motor.
 
-10) H-Bridge & Motor
+## H-Bridge & Motor
 
 	Use a H-Bridge to reverse the polarity of the motor
 	Allows motor to change direction
@@ -84,7 +84,7 @@ Small Arduino Projects
 
 	Motor state is controlled using an On/Off button and a Left/Right button	
 
-11) LCD & Tilt Switch
+## LCD & Tilt Switch
 
 	Wired up an LCD to display different messages
 	Each time a change is detected from the tilt switch a new message is displayed
