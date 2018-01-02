@@ -1,4 +1,4 @@
-# Small Arduino Projects 
+# Arduino Intro Projects 
 
 
 ## Basic Circuit 
