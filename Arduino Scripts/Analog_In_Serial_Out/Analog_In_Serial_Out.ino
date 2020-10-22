@@ -6,7 +6,7 @@
 //Sensor Pins
 int firstSensor = 0;    // first analog sensor
 int secondSensor = 1;   // second analog sensor
-int thirdSensor = 2;    // digital sensor
+int thirdSensor = 2;    // third analog sensor
 
 //Sensor Readings
 float firstReading = 0.0;
